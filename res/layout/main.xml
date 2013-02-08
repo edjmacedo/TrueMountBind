@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_file_picker_button"
+        android:text="Set Application path"
+        />
+    <!--<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the app path"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        />-->
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_path_text_view"
+        android:hint="No directory has been selected"
+        android:textSize="18sp"
+        />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_file_picker_button_destination"
+        android:text="Set destination Path"
+        />
+    <!-- <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the app path"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        />-->
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_path_text_view_destination"
+        android:hint="No directory has been selected"
+        android:textSize="18sp"
+        />
+</LinearLayout>
