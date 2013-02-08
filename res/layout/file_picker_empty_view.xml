@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="No directories"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/btSetPath"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="132dp"            
+            android:text="Set This Path"
+        	android:onClick="setFolderPath"/>
+        
+        <Button
+            android:id="@+id/btcreateFolder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="70dp"            
+            android:text="Create new folder"
+            android:onClick="setFolderPath" />
+
+        <EditText
+            android:visibility="visible"
+            android:id="@+id/setNewFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btSetPath"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName" 
+            android:background="#00000000" 
+            android:text="MENSAGEM DE TESTE"/>
+
+    </RelativeLayout>
